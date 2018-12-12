@@ -59,6 +59,13 @@ a.logo {color:transparent; text-shadow:none; border:0;background:url("") center 
 .affix {z-index: 999; top: 0; width: 100%;}
  .noidea {
     background-color: transparent;
+    fotn-size: small;
+    color: #000;
+    text-shadow: 0 0 6px #E52775;
+    text-position: center;
+    padding: 3px;
+}
+.tip {
     font-family:'Fresca',sans-serif;
     fotn-size: small;
     color: #000;
