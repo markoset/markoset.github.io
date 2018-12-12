@@ -38,7 +38,49 @@ if (location.protocol != 'https:')
 <center>
 <img src="/images/st4zz.jpg" title="Foto" alt="Foto" style="border-radius: 50%; width: 200px; height: 200px; border: 2px solid #E52775;" /></center>
 <br />
-<table class="table table-bordered">
+<center><div class="noidea">
+<script type="text/javascript"> 
+        var charIndex = -1;
+        var stringLength = 0;
+        var inputText;
+        function writeContent(init)
+        {if(init)
+          { inputText = document.getElementById('contentToWrite').innerHTML; }if(charIndex==-1)
+          {charIndex = 0;stringLength = inputText.length;}var initString = document.getElementById('myContent').innerHTML;
+          initString = initString.replace(/<span.*$/gi,"");
+          var theChar = inputText.charAt(charIndex);
+          var nextFourChars = inputText.substr(charIndex,4);
+          if(nextFourChars=='<br>' || nextFourChars=='<br>')
+          {theChar  = '<br>';charIndex+=3;}initString = initString + theChar + "<span id='blink'>></span>";
+          document.getElementById('myContent').innerHTML = initString;
+          charIndex = charIndex/1 +1;
+          if(charIndex%2==1)
+          { document.getElementById('blink').style.display='none';}else
+          {document.getElementById('blink').style.display='inline';}
+          if(charIndex<=stringLength)
+          {setTimeout('writeContent(false)',100);} else
+          {blinkSpan();}} var currentStyle = 'inline';function blinkSpan() {if(currentStyle=='inline')
+          {currentStyle='none';}else
+          {currentStyle='inline';} document.getElementById('blink').style.display = currentStyle;
+          setTimeout('blinkSpan()',400);} msg = ""; msg = " " + msg;pos = 0;function scrollMSG()
+        {document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
+          pos++;if (pos >  msg.length) pos = 0
+          window.setTimeout("scrollMSG()",100);}
+        scrollMSG();
+      </script> 
+            <td> 
+              <h2><div id="myContent" class="tip"> </div> 
+              <div id="contentToWrite" style="display:none;" text-decoration:"overline" class="tip">Halaman ini dibuat hanya untuk kesenangan hobi dan untuk menghilangkan kebosanan saja :)</div> 
+</td> 
+</tr> 
+</table> 
+<p>&nbsp;</p> 
+
+<script type="text/javascript"> 
+writeContent(true);
+</script>
+	</div></h2></center><br />
+    <table class="table table-bordered">
 <tr>
 <th width="120">Nama</th>
 <td>Andri Pranata</td>
