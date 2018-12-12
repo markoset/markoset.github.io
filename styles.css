@@ -2,7 +2,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Play:400,700);
 
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
 @import url(https://fonts.googleapis.com/css?family=Joti+One:400,700);
 
@@ -69,8 +69,8 @@ a.logo {color:transparent; text-shadow:none; border:0;background:url("") center 
 }
 .tip {
     font-family:'
-    font-family:'Play',sans-serif;
-    fotn-size: 3px;
+    font-family:'Ubuntu',sans-serif;
+    fotn-size: 12px;
     color: #000;
     text-shadow: 0 0 6px #E52775;
     text-position: center;
