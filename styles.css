@@ -61,7 +61,7 @@ a.logo {color:transparent; text-shadow:none; border:0;background:url("") center 
 .affix {z-index: 999; top: 0; width: 100%;}
  .noidea {
     background-color: transparent;
-    fotn-size: 4px;
+    font-size: 5px;
     color: #000;
     text-shadow: 0 0 6px #E52775;
     text-position: center;
@@ -69,7 +69,7 @@ a.logo {color:transparent; text-shadow:none; border:0;background:url("") center 
 }
 .tip {
     font-family:'Ubuntu',sans-serif;
-    fotn-size: 4px;
+    font-size: 5px;
     color: #000;
     text-shadow: 0 0 6px #E52775;
     text-position: center;
