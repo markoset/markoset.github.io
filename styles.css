@@ -50,7 +50,7 @@ height: auto;
 ul.navbar-nav>li:hover {font-family:'VagRounded',sans-serif;line-height:3px; background:#E52775 !important;}
 a {color:#E52775;}
 a:hover,a:focus {color:#000;text-shadow: 0 0 6px #E52775;}
-.navbar-default,.alert-primary,.panel-primary>.panel-heading {font-family:'VagRounded',sans-serif;background:#E52775!important;}
+.navbar-default,.alert-primary,.panel-primary>.panel-heading {font-family:'Play',sans-serif;background:#E52775!important;}
 .w-break{word-break: break-all;}
 a.logo {color:transparent; text-shadow:none; border:0;background:url("") center center no-repeat; background-size:163px 40px;display:block; height:60px; width:163px}
 .last {background:#fff;color:#708090;margin:2px 0px;padding:2px;border:1px solid #e3e7e3;text-align:left;}
