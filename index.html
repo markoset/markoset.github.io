@@ -36,50 +36,10 @@ if (location.protocol != 'https:')
 <div class="panel-heading text-center"><i class="glyphicon glyphicon-file"></i> <strong>Andri Pranata Biografi</strong></div>
 <div class="panel-body">
 <center>
-<img src="/images/st4zz.jpg" title="Foto" alt="Foto" style="border-radius: 50%; width: 200px; height: 200px; border: 2px solid #E52775;" /></center>
+<img src="/images/st4zz.jpg" title="Foto" alt="Foto" style="border-radius: 50%; width: 200px; height: 200px; border: 2px dotted #E52775;" /></center>
 <br />
-<center><div class="noidea">
-<script type="text/javascript"> 
-        var charIndex = -1;
-        var stringLength = 0;
-        var inputText;
-        function writeContent(init)
-        {if(init)
-          { inputText = document.getElementById('contentToWrite').innerHTML; }if(charIndex==-1)
-          {charIndex = 0;stringLength = inputText.length;}var initString = document.getElementById('myContent').innerHTML;
-          initString = initString.replace(/<span.*$/gi,"");
-          var theChar = inputText.charAt(charIndex);
-          var nextFourChars = inputText.substr(charIndex,4);
-          if(nextFourChars=='<br>' || nextFourChars=='<br>')
-          {theChar  = '<br>';charIndex+=3;}initString = initString + theChar + "<span id='blink'>></span>";
-          document.getElementById('myContent').innerHTML = initString;
-          charIndex = charIndex/1 +1;
-          if(charIndex%2==1)
-          { document.getElementById('blink').style.display='none';}else
-          {document.getElementById('blink').style.display='inline';}
-          if(charIndex<=stringLength)
-          {setTimeout('writeContent(false)',100);} else
-          {blinkSpan();}} var currentStyle = 'inline';function blinkSpan() {if(currentStyle=='inline')
-          {currentStyle='none';}else
-          {currentStyle='inline';} document.getElementById('blink').style.display = currentStyle;
-          setTimeout('blinkSpan()',400);} msg = ""; msg = " " + msg;pos = 0;function scrollMSG()
-        {document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
-          pos++;if (pos >  msg.length) pos = 0
-          window.setTimeout("scrollMSG()",100);}
-        scrollMSG();
-      </script> 
-            <td> 
-              <h2><div id="myContent" class="tip"> </div> 
-              <div id="contentToWrite" style="display:none;" text-decoration:"overline" class="tip">Halaman ini saya buat hanya karena hobi dan sekaligus untuk menghilangkan kebosanan saja :)</div> 
-</td> 
-</tr> 
-</table> 
-<p>&nbsp;</p> 
-
-<script type="text/javascript"> 
-writeContent(true);
-</script>
-	</div></h2></center><br />
+	<center><div id="element" class="noidea"></div></center>
+<br />
     <table class="table table-bordered">
 <tr>
 <th width="120">Nama</th>
@@ -123,5 +83,8 @@ Created by Andri／st4zz
 <p class="text-muted pull-right">© 2018-2019 Koset.Me</p>
   </div>
 </footer>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js'></script>
+
+<script src="/nodejs/nulis.js"></script>
 </body>
 </html>
