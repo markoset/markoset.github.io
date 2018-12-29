@@ -1,17 +1,17 @@
 new TypeIt('#element', {
   speed: 45
 })
-.type('Halaman ini saa')
+.type('Halaman gak jelas ini saha')
 .pause(300)
 .options({speed: 200})
-.delete(1)
+.delete(2)
 .options({speed: 45})
 .pause(300)
-.type('ya buat hanya karena ngantuk')
+.type('ya buat karena ngantuk')
 .pause(300)
 .options({speed: 200})
 .delete(7)
-.type('hobi ')
+.type('hobi saja ')
 .pause(300)
 .options({speed: 45})
-.type('dan sekaligus untuk menghilangkan rasa bosan saja :)');
+.type('dan sekaligus untuk menghilangkan rasa bosan karena tidak ada kegiatan :)');
