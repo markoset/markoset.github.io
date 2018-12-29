@@ -33,10 +33,10 @@ if (location.protocol != 'https:')
 <body>
 <div class="container">
 <div class="panel panel-primary">
-<div class="panel-heading text-center"><i class="glyphicon glyphicon-file"></i> <strong>Andri Pranata Biografi</strong></div>
+<div class="panel-heading text-center"><i class="glyphicon glyphicon-file"></i> <judul><strong>Andri Pranata Biografi</strong></judul></div>
 <div class="panel-body">
 <center>
-<img src="/images/st4zz.jpg" title="Foto" alt="Foto" style="border-radius: 50%; width: 200px; height: 200px; border: 2px dotted #E52775;" /></center>
+<img src="/images/st4zz.jpg" title="Foto" alt="Foto" style="border-radius: 50%; width: 200px; height: 200px; border: 2px solid #E52775;" /></center>
 <br />
 	<center><div id="element" class="noidea"></div></center>
 <br />
@@ -86,5 +86,13 @@ Created by Andri／st4zz
 <script src='https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js'></script>
 
 <script src="/nodejs/nulis.js"></script>
+      <script>
+        var b = window.baffle('judul', 
+          {
+            characters: 'b6c7807bb10b5d867000',// ▓░█ ▒░▒▓░ ▒░░▓> ▒█▓ █░><▒ █▒█▓ ▓░/ ▓▓/█ █▓▒', 
+          speed: 50
+        });
+        b.start().once().reveal(500, 500);
+      </script>
 </body>
 </html>
