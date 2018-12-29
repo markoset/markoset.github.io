@@ -1,4 +1,4 @@
 new TypeIt('#nama', {
-  speed: 45
+  speed: 30
 })
 .type('Andri Pranata');
