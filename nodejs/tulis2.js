@@ -1,5 +1,3 @@
-//-- See full documentation for TypeIt at https://typeitjs.com.
-
 new TypeIt('#nulis', {
   speed: 45
 })
