@@ -1,6 +1,6 @@
 //-- See full documentation for TypeIt at https://typeitjs.com.
 
-new TypeIt('#element', {
+new TypeIt('#nulis', {
   speed: 45
 })
 .type('The programers')
