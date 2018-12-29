@@ -7,11 +7,11 @@ new TypeIt('#element', {
 .delete(2)
 .options({speed: 45})
 .pause(300)
-.type('ya buat karena ngantuk')
+.type('ya buat karena alasan pengen berak')
 .pause(300)
 .options({speed: 200})
-.delete(7)
+.delete(12)
 .type('hobi saja ')
 .pause(300)
 .options({speed: 45})
-.type('dan sekaligus untuk menghilangkan rasa bosan karena tidak ada kegiatan :)');
+.type('dan sekaligus untuk menghilangkan bosan karena tidak ada kegiatan :)');
