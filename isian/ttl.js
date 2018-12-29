@@ -1,5 +1,5 @@
 new TypeIt('#ttl', {
-  speed: 45
+  speed: 35
 })
 .type('Lamogan')
 .pause(300)
